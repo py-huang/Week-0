@@ -1,0 +1,194 @@
+.frame {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+/*動態*/
+.post-container {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: 700px;
+  height: 397px;
+}
+/*動態本身*/
+.post {
+  width: 409.01px;
+  height: 151px;
+  top: 20px;
+  left: 40px;
+}
+/*group40*/
+.group-40 {
+  position: absolute;
+  width: 161.58px;
+  height: 76.81px;
+  top: 20px;
+  left: 40px;
+}
+/*一個小時前*/
+.anhour {
+  position: absolute;
+  width: 69px;
+  height: 26px;
+  top: 59px;
+  left: 127.21px;
+  font-family: Outfit;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #909090;
+}
+/*你的朋友*/
+.yourfriend {
+  position: absolute;
+  width: 74.37px;
+  height: 58.81px;
+  top: 38px;
+  left: 127.22px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.circle-large {
+  position: absolute;
+  width: 75.19px;
+  height: 75px;
+  left: 40px;
+  top: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: #d3d3d3;
+}
+/*動態*/
+.text {
+  position: absolute;
+  width: 409.01px;
+  height: 58.81px;
+  top: 112.18px;
+  left: 40px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.line1 {
+  position: absolute;
+  width: 630px;
+  top: 212px;
+  left: 35px;
+
+  border: 1px solid #bfbfbf;
+}
+.circle-small {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 222px;
+  left: 40px;
+  background-color: #f85c53;
+  margin-right: 10px;
+}
+.circle-small2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 222px;
+  left: 80px;
+
+  background-color: #d3d3d3;
+}
+.line2 {
+  position: absolute;
+  width: 630px;
+  top: 262px;
+  left: 35px;
+  border: 1px solid #bfbfbf;
+}
+/*留言*/
+.message {
+  position: absolute;
+  width: 129px;
+  height: 31px;
+  top: 273px;
+  left: 536px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #5c5c5c;
+}
+/*喜歡*/
+.like {
+  position: absolute;
+  width: 219.54px;
+  height: 25px;
+  top: 272px;
+  left: 35px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5c5c5c;
+}
+.line3 {
+  position: absolute;
+  width: 700px;
+  top: 307px;
+  border: 1px solid #d9d9d9;
+}
+.rect {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 554.99px;
+  height: 50px;
+  top: 327px;
+  left: 105px;
+  border-radius: 30px;
+  border: 1px;
+  background: linear-gradient(
+      0deg,
+      rgba(217, 217, 217, 0.39),
+      rgba(217, 217, 217, 0.39)
+    ),
+    linear-gradient(0deg, #f0f0f0, #f0f0f0);
+  border: 1px solid #f0f0f0;
+}
+/*留言*/
+.text2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #777777;
+}
+.image-container {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 327px;
+  left: 40px;
+  max-width: 100%;
+  max-height: 100%;
+}
